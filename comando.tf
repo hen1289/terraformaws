@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "ubuntu_20_04" {
   ami = "${var.amis["us-east-1-ubuntu20"]}"
   instance_type = "${var.instance_type.micro}"
-  key_name = "iru"
+  key_name = "xxx"
   tags = {
     "name" = "ubuntu_20_04"
   }
