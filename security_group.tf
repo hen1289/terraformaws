@@ -1,6 +1,6 @@
-resource "aws_security_group" "acesso_geral" {
-    name = "acesso_geral"
-    description = "acesso aos grupos iru"
+resource "aws_security_group" "xxx" {
+    name = "xxx"
+    description = "xxx"
     ingress {
         cidr_blocks = [
             "0.0.0.0/0",
@@ -31,6 +31,6 @@ resource "aws_security_group" "acesso_geral" {
       to_port = 0
     } ]
     tags = {
-      "name" = "acesso_geral"
+      "name" = "xxx"
     }
 }
